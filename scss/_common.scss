@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a, img {
+    display: block;
+}
+
+li {
+    list-style: none;
+}
+
+.container {
+    max-width: 1245px;
+    margin: 0 auto;
+    border: 2px solid green;
+}
