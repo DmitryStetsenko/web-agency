@@ -1,0 +1,51 @@
+.h-m {
+    margin-right: 50px;
+}
+
+.header {
+    background: #1d2630;
+}
+.header-block {
+    @include flex;
+    padding: 20px 0;
+}
+.logo {
+    margin-right: auto;
+    img {
+        height: 30px;
+    } 
+}
+
+.menu {
+    @include flex;
+
+    text-transform: uppercase;
+    &__item {
+        margin-right: 10px;
+        &:last-child {
+            margin-top: 0;
+        }
+    }
+    &__link {
+        color: white;
+    }
+}
+
+.works-menu {
+    @include flex;
+
+    text-transform: uppercase;
+    &__item {
+        color: #00fa53;
+        margin-right: 10px;
+        &:last-child {
+            margin-top: 0;
+        }
+    }
+}
+
+.search-block {
+    img {
+        width: 30px;
+    }
+}
