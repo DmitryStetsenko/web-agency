@@ -1,4 +1,5 @@
 .hero {
+    display: none;
     background: silver;
     background-image: 
         linear-gradient(85deg, rgba(48,50,99,0.67) 0%, rgba(48,50,99,0.67) 100%),
@@ -28,3 +29,5 @@
 }
 
 @import "./achivments";
+
+@import "./hero-media";

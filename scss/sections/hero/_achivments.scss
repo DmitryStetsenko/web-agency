@@ -1,5 +1,9 @@
 .achivments-block {
     @include flex;
+
+    @media (max-width: $bp3) {
+        flex-wrap: wrap;
+    }
 }
 
 
@@ -49,5 +53,18 @@ $achivIconWidth: 28px;
     }
     &__descr {
         font-size: .75rem;
+        text-align: center;
+    }
+
+    @media (max-width: $bp2) {
+        width: 200px;
+        margin-right: 30px;
+    }
+
+    @media (max-width: $bp3) {
+        margin: 30px;
+        &:last-child {
+            margin-right: 30px;
+        }
     }
 }

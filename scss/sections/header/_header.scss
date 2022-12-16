@@ -16,6 +16,12 @@
     } 
 }
 
+
+.menu-block {
+    &__toggle {
+        display: none;
+    }
+}
 .menu {
     @include flex;
 
@@ -31,6 +37,11 @@
     }
 }
 
+.works-menu-block {
+    &__toggle {
+        display: none;
+    }
+}
 .works-menu {
     @include flex;
 
@@ -49,3 +60,5 @@
         width: 30px;
     }
 }
+
+@import "./header-media";
